@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+#window {
+  width: 1200px;
+  height: 600px;
+  background: #7AE7E1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
