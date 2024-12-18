@@ -2,14 +2,12 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 #window {
-  width: 1200px;
-  height: 600px;
+  width: 400px;
+  height: 650px;
   background: #7AE7E1;
-  border-radius: 16px;
   overflow: hidden;
 }
 
