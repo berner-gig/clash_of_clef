@@ -1,6 +1,6 @@
 import "./earn.css";
 
-import background from "../../assests/earn_bg.png"
+import background from "../../assests/background.png"
 import {UserOutlined, XOutlined, DiscordOutlined} from '@ant-design/icons';
 import {Avatar, Button, Flex, List, Segmented, Typography} from "antd";
 import {ReactNode, useState} from "react";
@@ -93,9 +93,9 @@ function Earn() {
 									size="small"
 								>
 									{
-										tasks.map((task: Task) => (
+										tasks.map((task: Task, idx) => (
 											<List.Item
-												key={task.id}
+												key={idx}
 												className={'task-item'}
 												extra={[
 													<Button type={'primary'}>Go</Button>
