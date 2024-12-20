@@ -1,6 +1,6 @@
 import "./earn.css";
 
-import background from "../../assests/background.png"
+import background from "../../assets/background.png"
 import {UserOutlined, XOutlined, DiscordOutlined} from '@ant-design/icons';
 import {Avatar, Button, Flex, List, Segmented, Typography} from "antd";
 import {ReactNode, useState} from "react";

@@ -1,4 +1,4 @@
-import background from "../../assests/background.png";
+import background from "../../assets/background.png";
 import {Avatar, Button, Flex, List, Segmented, Typography} from "antd";
 import {UserOutlined} from "@ant-design/icons";
 import "./ranking.css"
