@@ -1,0 +1,20 @@
+
+.characters-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.characters-box {
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.characters-box::-webkit-scrollbar {
+    display: none;
+}

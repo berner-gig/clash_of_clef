@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import {AppProvider} from "@pixi/react";
 import {Application} from "pixi.js";
 import {initDevtools} from "@pixi/devtools";
-
+import WebApp from "@twa-dev/sdk";
 
 const app = createRoot(document.getElementById('root'))
 

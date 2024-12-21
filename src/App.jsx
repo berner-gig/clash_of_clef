@@ -6,11 +6,13 @@ import routes from '~react-pages'
 import Loading from "./components/Loading.jsx";
 
 function App() {
-	return (
-		<Suspense fallback={<Loading/>}>
-			{useRoutes(routes)}
-		</Suspense>
-	)
+  return (
+    <Suspense fallback={<Loading/>}>
+      <div id='window'>
+        {useRoutes(routes)}
+      </div>
+    </Suspense>
+  )
 }
 
-export default App
+export default App;
