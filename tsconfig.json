@@ -2,7 +2,12 @@
   "compilerOptions": {
     "include": [
       "src",
-      "src/declaration.d.ts"
+      "src/declaration.d.ts",
+      "**/*.ts",
+      "**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules"
     ],
     "jsx": "preserve"
   }
