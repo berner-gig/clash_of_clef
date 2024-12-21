@@ -48,6 +48,22 @@ const tasks = [
 		title: 'Share Sticker',
 		reward: '25 Points',
 		description: 'Share our sticker pack in any group'
+	},
+	{
+		id: 5,
+		type: 'telegram',
+		icon: <DiscordOutlined/>,
+		title: 'Share Sticker',
+		reward: '25 Points',
+		description: 'Share our sticker pack in any group'
+	},
+	{
+		id: 6,
+		type: 'telegram',
+		icon: <DiscordOutlined/>,
+		title: 'Share Sticker',
+		reward: '25 Points',
+		description: 'Share our sticker pack in any group'
 	}
 ]
 

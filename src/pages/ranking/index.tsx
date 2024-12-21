@@ -105,7 +105,7 @@ function Leaderboard() {
 											gap={'small'}
 										>
 											<span className={'leaderboard-item-rank'}>#{idx+1}</span>
-											<Avatar size={24} icon={task.avatar} className={'leaderboard-item-avatar'}></Avatar>
+											<Avatar size={28} icon={task.avatar} className={'leaderboard-item-avatar'}></Avatar>
 											<span className={'leaderboard-item-name'}>
 												{task.name}
 											</span>

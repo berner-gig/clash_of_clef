@@ -12,6 +12,7 @@
   "dependencies": {
     "@pixi/devtools": "^2.0.1",
     "@pixi/react": "^7.1.2",
+    "@telegram-apps/telegram-ui": "^2.1.8",
     "@twa-dev/sdk": "^8.0.1",
     "antd": "^5.22.5",
     "pixi.js": "^7.4.2",

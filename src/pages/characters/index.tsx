@@ -11,13 +11,13 @@ function Characters() {
 				<div className={'characters-box'}>
 					<List
 						grid={{
-							column: 4,
+							column: 3,
 							gutter: 0,
 						}}
-						dataSource={Array.from({length: 40}, () => Math.floor(Math.random() * 40))}
+						dataSource={Array.from({length: 30}, () => Math.floor(Math.random() * 40))}
 						renderItem={(item) => (
 							<List.Item>
-								<div style={{width: 80, height: 120, margin: "auto"}}><CharacterCard id={item.toString()}/></div>
+								<div style={{width: 120, height: 180, margin: "auto"}}><CharacterCard id={item.toString()}/></div>
 							</List.Item>
 						)}
 					/>
