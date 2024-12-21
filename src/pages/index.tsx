@@ -15,10 +15,10 @@ const index = () => {
 
 	return (
 		<>
-			<div className="battle-container" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
+			<div className="battle-container" style={{backgroundImage: `url(${background})`, backgroundSize: 'contain'}}>
 
 				<div className="slot-container">
-					<Carousel height={200} width={400} xOrigin={220} xRadius={160}>
+					<Carousel height={200} width={400} xOrigin={220} yOrigin={50} xRadius={180}>
 						<div key={1} className={'slot'} style={{backgroundImage: `url(${slot})`, backgroundSize: 'cover'}}>
 							<CharacterCard id={"10"}></CharacterCard>
 						</div>
