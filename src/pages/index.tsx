@@ -1,11 +1,11 @@
 import {Flex} from "antd";
 import background from "../assets/battle_background.png";
 import slot from "../assets/slot.jpg";
-import btnBattle from "../assets/btn_battle.jpg";
-import btnRanking from "../assets/btn_leaderboard.jpg";
-import btnMarket from "../assets/btn_market.jpg";
-import btnTasks from "../assets/btn_tasks.jpg";
-import btnRoles from "../assets/btn_roles.jpg";
+import btnBattle from "../assets/btn_battle.png";
+import btnRanking from "../assets/btn_leaderboard.png";
+import btnMarket from "../assets/btn_market.png";
+import btnTasks from "../assets/btn_tasks.png";
+import btnRoles from "../assets/btn_roles.png";
 import "./battle.css"
 import {Link} from "react-router";
 import {Carousel} from "react-carousel3";
