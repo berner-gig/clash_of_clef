@@ -11,7 +11,7 @@
     position: relative;
     justify-content: center;
     left: 0;
-    top: 120px;
+    top: 80px;
 }
 
 .slot {
@@ -50,4 +50,21 @@
 
 .navigation-item-primary {
     width: 80px;
+}
+
+.profile-container {
+    width: 100%;
+    position: relative;
+}
+
+.profile-container-coin {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    height: 32px !important;
+}
+
+.profile-container-coin span {
+    height: 32px !important;
+    line-height: 32px !important;
 }

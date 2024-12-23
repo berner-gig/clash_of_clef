@@ -3,6 +3,8 @@ import {Avatar, Button, Flex, List, Segmented, Typography} from "antd";
 import {UserOutlined} from "@ant-design/icons";
 import "./ranking.css"
 import {ReactElement} from "react";
+import {Link} from "react-router";
+import btnClose from "../../assets/btn_close.png";
 
 const {Paragraph} = Typography;
 
@@ -80,8 +82,9 @@ function Leaderboard() {
 	return (
 		<>
 			<div className="leaderboard-container" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
-				<div className={'leaderboard-box'}>
+				<div><Link to={'/'}><img src={btnClose} className={'leaderboard-close'} alt={'close'}/></Link></div>
 
+				<div className={'leaderboard-box'}>
 					<div className="leaderboard-header">
 						<Flex justify={'center'}>
 							<Typography.Title level={1} className={'leaderboard-title'}>Leaderboard</Typography.Title>
@@ -104,7 +107,7 @@ function Leaderboard() {
 											key={task.id}
 											gap={'small'}
 										>
-											<span className={'leaderboard-item-rank'}>#{idx+1}</span>
+											<span className={'leaderboard-item-rank'}>#{idx + 1}</span>
 											<Avatar size={28} icon={task.avatar} className={'leaderboard-item-avatar'}></Avatar>
 											<span className={'leaderboard-item-name'}>
 												{task.name}
