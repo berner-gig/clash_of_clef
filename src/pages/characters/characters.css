@@ -1,7 +1,9 @@
 
 .characters-container {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    max-height: 720px;
+    display: flex;
     position: relative;
 }
 

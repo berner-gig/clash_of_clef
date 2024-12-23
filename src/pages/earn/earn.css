@@ -15,7 +15,7 @@
 .earn-container .earn-tasks {
     margin-top: 20px;
     padding: 10px 0;
-    max-height: 440px;
+    max-height: 360px;
     overflow-y: scroll;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
