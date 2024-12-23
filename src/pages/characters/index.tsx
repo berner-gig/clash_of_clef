@@ -2,12 +2,16 @@ import background from "../../assets/background.png";
 import "./characters.css"
 import {List} from "antd";
 import CharacterCard from "../../components/character";
+import {Link} from "react-router";
+import btnClose from "../../assets/btn_close.png";
 
 function Characters() {
 
 	return (
 		<>
 			<div className="characters-container" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
+				<div><Link to={'/'}><img src={btnClose} className={'characters-close'} alt={'close'}/></Link></div>
+
 				<div className={'characters-box'}>
 					<List
 						grid={{

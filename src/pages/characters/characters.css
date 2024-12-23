@@ -20,3 +20,9 @@
 .characters-box::-webkit-scrollbar {
     display: none;
 }
+
+.characters-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

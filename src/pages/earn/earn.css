@@ -1,6 +1,7 @@
 .earn-container {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .earn-box {
@@ -9,13 +10,13 @@
 }
 
 .earn-header {
-    margin: 10px 0 40px;
+    margin: 10px 0 30px;
 }
 
 .earn-container .earn-tasks {
     margin-top: 20px;
     padding: 10px 0;
-    max-height: 360px;
+    max-height: 280px;
     overflow-y: scroll;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
@@ -40,4 +41,10 @@
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 6px;
+}
+
+.earn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }

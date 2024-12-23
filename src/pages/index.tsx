@@ -1,10 +1,11 @@
-import {Flex, List} from "antd";
+import {Badge, Flex, List, Statistic} from "antd";
 import background from "../assets/battle_background.png";
 import slot from "../assets/slot.jpg";
 import btnBattle from "../assets/btn_battle.png";
 import btnRanking from "../assets/btn_leaderboard.png";
 import btnMarket from "../assets/btn_market.png";
 import btnTasks from "../assets/btn_tasks.png";
+import coin from "../assets/coin.jpg";
 import btnRoles from "../assets/btn_roles.png";
 import "./battle.css"
 import {Link} from "react-router";
@@ -19,7 +20,13 @@ const index = () => {
 	return (
 		<>
 			<div className="battle-container" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
-
+				<div className={'profile-container'}>
+					<Statistic
+						value={328}
+						className={'profile-container-coin'}
+						valueStyle={{color: '#cf1322', verticalAlign: 'middle', height: 32}}
+						prefix={<img src={coin} style={{width: 32, height: 32}} alt={'coin'}/>}/>
+				</div>
 				<div className="slot-container">
 					<Carousel height={200} width={400} xOrigin={216} yOrigin={50} xRadius={180}>
 						<div key={1} className={'slot'} style={{backgroundImage: `url(${slot})`, backgroundSize: 'cover'}}>

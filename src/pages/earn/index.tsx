@@ -4,6 +4,8 @@ import background from "../../assets/background.png"
 import {UserOutlined, XOutlined, DiscordOutlined} from '@ant-design/icons';
 import {Avatar, Button, Flex, List, Segmented, Typography} from "antd";
 import {ReactNode, useState} from "react";
+import {Link} from "react-router";
+import btnClose from "../../assets/btn_close.png";
 
 const {Paragraph} = Typography;
 
@@ -73,6 +75,8 @@ function Earn() {
 	return (
 		<>
 			<div className="earn-container" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
+				<div><Link to={'/'}><img src={btnClose} className={'earn-close'} alt={'close'}/></Link></div>
+
 				<div className={'earn-box'}>
 
 					<div className="earn-header">
